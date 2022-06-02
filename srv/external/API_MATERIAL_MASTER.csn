@@ -1,0 +1,19 @@
+{
+  "definitions": {
+    "API_MATERIAL_MASTER": {
+      "kind": "service"
+    },
+    "API_MATERIAL_MASTER.M_Materialnummer": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "Materialnummer": {
+          "key": true,
+          "type": "cds.String",
+          "length": 50
+        }
+ 
+      }
+    }
+  }
+}
